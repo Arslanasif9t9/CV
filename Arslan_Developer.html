@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arslan Ahmad - CV</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: sans-serif; 
+            background-color: #f3f4f6; 
+            color: #333; 
+            line-height: 1.5;
+            padding: 40px 20px;
+        }
+        .cv-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            display: flex;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            width: 33%;
+            background-color: #e0e7ff;
+            padding: 30px;
+        }
+        .profile-img-box {
+            border: 4px solid #2563eb;
+            width: 130px;
+            height: 130px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .profile-img-box img { width: 100%; height: 100%; object-fit: cover; background: #ccc; }
+        .name-title h1 { font-size: 24px; color: #1f2937; margin-bottom: 5px; }
+        .name-title p { font-size: 14px; color: #4b5563; margin-bottom: 25px; }
+        .contact-box { border: 1px solid #60a5fa; padding: 15px; font-size: 12px; margin-bottom: 25px; }
+        .side-section-title {
+            color: #3730a3;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #a5b4fc;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+        .skill-item { margin-bottom: 15px; }
+        .skill-name { font-size: 12px; font-weight: bold; }
+        .bar-bg { background: #c7d2fe; height: 8px; margin: 4px 0; width: 100%; }
+        .bar-fill { background: #4338ca; height: 100%; }
+        .main-content { width: 67%; padding: 40px; }
+        .section-header {
+            font-size: 18px;
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+        .section-header:first-child { margin-top: 0; }
+        .summary-text { font-size: 14px; color: #374151; }
+        .exp-item { margin-bottom: 25px; }
+        .flex-row { display: flex; justify-content: space-between; font-weight: bold; font-size: 13px; }
+        .bullet-list { margin-left: 20px; margin-top: 10px; font-size: 13px; color: #374151; }
+        .bullet-list li { margin-bottom: 8px; }
+        .edu-item { display: flex; justify-content: space-between; margin-bottom: 15px; font-size: 13px; }
+        .blue-underline { color: #2563eb; text-decoration: underline; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <div class="sidebar">
+            <div class="profile-img-box"><img src="profile.jpg" alt="Photo"></div>
+            <div class="name-title">
+                <h1>Arslan Ahmad</h1>
+                <p>Web Developer</p>
+            </div>
+            <div class="contact-box">
+                <p>📍 Narowal, Punjab, Pakistan</p>
+                <p>📞 +92345 0778252</p>
+                <p>✉️ arslanahmad4506@gmail.com</p>
+            </div>
+            <h3 class="side-section-title">Skills</h3>
+            <div class="skill-item">
+                <p class="skill-name">Web Technologies (Advanced)</p>
+                <div class="bar-bg"><div class="bar-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <p class="skill-name">Programming (Advance)</p>
+                <div class="bar-bg"><div class="bar-fill" style="width: 90%;"></div></div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h2 class="section-header">Summary</h2>
+            <p class="summary-text">
+                Innovative Web Developer with 3+ years of experience in building impactful, user-friendly websites and applications. Proficient in front-end technologies with a strong programming in C++, OOP, and DSA. Skilled in creating responsive designs, optimizing performance, and Proven track record of leading projects from concept to deployment.
+            </p>
+
+            <h2 class="section-header">Experience</h2>
+            
+            <div class="exp-item">
+                <div class="flex-row">
+                    <span>SENIOR WEB DESIGN & DEVELOPER | MAZAIN SOLUTION</span>
+                    <span>25 Nov 2025 - Present</span>
+                </div>
+                <ul class="bullet-list">
+                    <li>Design and development of professional websites.</li>
+                    <li>Full Stack Developer focusing on scalable architecture.</li>
+                </ul>
+            </div>
+
+            <div class="exp-item">
+                <div class="flex-row">
+                    <span>AC ADMIN PROJECTS AND EXTRACURRICULAR</span>
+                    <span>Jan 2021 - Present</span>
+                </div>
+                <ul class="bullet-list">
+                    <li>Completed Various academic projects during high school & University, honing research, analytic, and presentation skills.</li>
+                    <li>Completed Various programming and web development projects with responsive and creative design.</li>
+                </ul>
+            </div>
+
+            <div class="exp-item">
+                <div class="flex-row">
+                    <span>INDEPENDENT PROJECTS AND PERSONAL ENDEAVORS</span>
+                </div>
+                <ul class="bullet-list">
+                    <li>Undertook independent projects, such as organizing neighborhood events, Web Development and leadership skills.</li>
+                    <li>Engaged in personal endeavors, such as managing a small online business.</li>
+                </ul>
+            </div>
+
+            <h2 class="section-header">Education</h2>
+            <div class="edu-item">
+                <div><strong>The Punjab University</strong><br>Narowal</div>
+                <div style="text-align:right"><strong>2023 to present</strong><br><span class="blue-underline">Bachelor's in Information Technology</span></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
