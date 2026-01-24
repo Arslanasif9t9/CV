@@ -247,17 +247,8 @@
                 margin: 0,
                 filename: 'Arslan_Ahmad_CV.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { 
-                    scale: 2, 
-                    useCORS: true,
-                    backgroundColor: '#ffffff'
-                },
-                jsPDF: { 
-                    unit: 'in', 
-                    format: 'a4', 
-                    orientation: 'portrait',
-                    compress: true
-                }
+                html2canvas: { scale: 2, useCORS: true },
+                jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
             };
 
             // Temporarily hide the download button before generating PDF
